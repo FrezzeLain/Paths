@@ -8,18 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="flex">
-        <div class="Image piece1 absolute" ></div>
-        <div class="Image piece2 absolute" ></div>
-        <div class="Image piece3 absolute" ></div>
-        <div class="Image piece4 absolute" ></div>
-        <div class="Image piece5 absolute" ></div>
-        <div class="Image piece6 absolute" ></div>
-        <div class="Image piece7 absolute" ></div>
-        <div class="Image piece8 absolute" ></div>
-        <div class="Image piece9 absolute" ></div>
+    <label for="NumberOfBlocks">Кол - во блоков: </label>
+    <select name="NumberOfBlocks" id="NOB">
+        <option value="default">Стандарт (3)</option>
+        <option value="More">Увеличенный (4)</option>
+        <option value="More+">Увеличенный + (5)</option>
+    </select>
+    <button id="Generate">Сгенерировать поле</button>
+    <div class="flex" id="MainBlock">
+        
     </div>
-    <button>Рандом Accepted!</button>
+    <button id="Randomise">Рандом Accepted!</button>
     <script src="index.js"></script>
 </body>
 </html>

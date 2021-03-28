@@ -6,8 +6,6 @@
 
 .Image{
     background-image: url(image.jpg);
-    height: 220px;
-    width: 220px;
 }
 
 .flex{
@@ -21,105 +19,27 @@
     transform: translate(-50%, -50%);
 }
 
-.piece1{
-    background-position-x: 0;
-    background-position-y: 0;
-}
-
-.piece2{
-    background-position-x: 440px;
-    background-position-y: 0;
-}
-
-.piece3{
-    background-position-x: 220px;
-    background-position-y: 0;
-}
-
-.piece4{
-    background-position-x: 0;
-    background-position-y: 440px;
-}
-
-.piece5{
-    background-position-x: 440px;
-    background-position-y: 440px;
-}
-
-.piece6{
-    background-position-x: 220px;
-    background-position-y: 440px;
-}
-
-.piece7{
-    background-position-x: 0;
-    background-position-y: 220px;
-}
-
-.piece8{
-    background-position-x: 440px;
-    background-position-y: 220px;
-}
-
-.piece9{
-    background-position-x: 220px;
-    background-position-y: 220px;
-}
-
-button{
+#Randomise{
     position: absolute;
     left: 50%;
-    top: 78%;
+    top: 88%;
     transform: translate(-50%, -50%);
     font-size: 24px;
     padding: 20px 60px;
 }
 
+#Generate{
+    font-size: 16px;
+    padding: 10px;
+}
+
+#NOB{
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
 .absolute{
     position: absolute;
-}
-
-.absolute1{
-    left: 0;
-    top: 0;
-}
-
-.absolute2{
-    left: 220px;
-    top: 0;
-}
-
-.absolute3{
-    left: 440px;
-    top: 0;
-}
-
-.absolute4{
-    left: 0;
-    top: 220px;
-}
-
-.absolute5{
-    left: 220px;
-    top: 220px;
-}
-
-.absolute6{
-    left: 440px;
-    top: 220px;
-}
-
-.absolute7{
-    left: 0;
-    top: 440px;
-}
-
-.absolute8{
-    left: 220px;
-    top: 440px;
-}
-
-.absolute9{
-    left: 440px;
-    top: 440px;
 }
